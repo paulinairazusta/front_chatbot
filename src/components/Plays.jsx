@@ -18,7 +18,7 @@ function Plays() {
       {plays.map((play) => {
         return (
           <li>
-            <img src={play.image} />
+            {play.name} <img src={play.image} />
           </li>
         );
       })}
