@@ -8,6 +8,7 @@ function Plays() {
     async function getPlays() {
       const response = await axios.get("http://localhost:3002/plays");
       setPlays(response.data);
+      console.log(response.data);
     }
     getPlays();
   }, []);
@@ -15,7 +16,11 @@ function Plays() {
   return (
     <ul>
       {plays.map((play) => {
-        return <li>{play.name}</li>;
+        return (
+          <li>
+            <img src={play.image} />
+          </li>
+        );
       })}
     </ul>
   );
