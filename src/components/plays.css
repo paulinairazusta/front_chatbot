@@ -76,4 +76,7 @@ h1 {
     display: flex;
     justify-content: center;
   }
+  .nav-link {
+    margin-top: 1rem;
+  }
 }
