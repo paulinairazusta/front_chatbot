@@ -2,8 +2,11 @@ body {
   background-color: #eaeaea;
 }
 
-.navbar {
+.nav-container {
   margin: 2rem 10rem 4rem 12.5rem;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
 }
@@ -25,10 +28,6 @@ body {
   margin: 0 10rem;
 }
 
-.nav-container {
-  margin: 0 10rem;
-}
-
 h1 {
   color: #9d1c0b;
   font-size: 25px;
@@ -43,11 +42,6 @@ h1 {
 .link {
   text-decoration: none;
 }
-
-/* .description-container {
-  display: flex;
-  align-items: center;
-} */
 
 .play-description {
   color: rgb(2, 9, 15, 0.8);
@@ -71,5 +65,15 @@ h1 {
   }
   .play-container {
     margin: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: center;
   }
 }
