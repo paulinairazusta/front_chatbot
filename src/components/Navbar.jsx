@@ -3,10 +3,7 @@ import axios from "axios";
 
 function BasicExample() {
   async function resetDataBase() {
-    const response = await axios.post(
-      `${process.env.REACT_APP_BACKEND_URL}/reset`
-    );
-    console.log(response);
+    await axios.post(`${process.env.REACT_APP_BACKEND_URL}/reset`);
   }
 
   return (

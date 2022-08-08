@@ -13,7 +13,6 @@ function Plays() {
         `${process.env.REACT_APP_BACKEND_URL}/plays`
       );
       setPlays(response.data);
-      console.log(response.data);
     }
     getPlays();
   }, []);
