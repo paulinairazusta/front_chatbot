@@ -10,7 +10,7 @@ function BasicExample() {
     <div className="nav-container">
       <nav className="navbar">
         <Link to="/" className="nav-link">
-          El Galpón
+          El Telón
         </Link>
         <Link to="/" className="nav-link">
           Cartelera
