@@ -87,4 +87,7 @@ h1 {
   .nav-link {
     margin-top: 1rem;
   }
+  .btn {
+    width: 8.5rem;
+  }
 }
