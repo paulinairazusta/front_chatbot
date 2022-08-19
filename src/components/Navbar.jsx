@@ -21,7 +21,7 @@ function BasicExample() {
         <Link to="/" className="nav-link">
           Sobre nosotros
         </Link>
-        <button onClick={resetDataBase} className="nav-link">
+        <button onClick={resetDataBase} className="btn nav-link">
           Resetear base de datos
         </button>
       </nav>
